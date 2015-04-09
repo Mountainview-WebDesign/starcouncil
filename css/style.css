@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'HelveticaRegular';
+    src: url('fonts/helr45w.eot');
+    src: url('fonts/helr45w.eot') format('embedded-opentype'),
+         url('fonts/helr45w.woff') format('woff'),
+         url('fonts/helr45w.ttf') format('truetype'),
+         url('fonts/helr45w.svg#HelveticaRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaOblique';
+    src: url('fonts/helr46w.eot');
+    src: url('fonts/helr46w.eot') format('embedded-opentype'),
+         url('fonts/helr46w.woff') format('woff'),
+         url('fonts/helr46w.ttf') format('truetype'),
+         url('fonts/helr46w.svg#HelveticaOblique') format('svg');
+}
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('fonts/myriadpro-regular.eot');
+    src: url('fonts/myriadpro-regular.eot') format('embedded-opentype'),
+         url('fonts/myriadpro-regular.woff') format('woff'),
+         url('fonts/myriadpro-regular.ttf') format('truetype'),
+         url('fonts/myriadpro-regular.svg#MyriadProRegular') format('svg');
+}
+h1
+body
+{
+font-family: 'HelveticaRegular';
+color:#757575;
+font-size:14px;
+margin:0;
+padding:0;
+}
+header{ margin-top:15px;}
+header .logo{ display:table; margin:0 auto;}
+header .tag-line{ text-align:center; color:#3296b5; font-size:20px;    font-family: 'HelveticaOblique';  padding-top:50px;}
+header .contact{ font-family: 'MyriadProRegular'; font-size:20px; color:#6f7070; text-align:center; padding-top:50px;}
+header .contact span.large{ font-size:45px; line-height:normal; display:block; line-height:40px;}
+
+.content
+{
+background: #73b6cb; /* Old browsers */
+background: -moz-linear-gradient(top,  #73b6cb 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#73b6cb), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #73b6cb 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #73b6cb 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #73b6cb 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #73b6cb 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73b6cb', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+margin-top:55px;
+
+}
+.content .content-inner
+{
+background:#fff;
+box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+padding:10px;
+border-radius:12px;
+-moz-border-radius:12px;
+-webkit-border-radius:12px;
+margin-top:-40px;
+}
+.carousel{}
+.carousel .carousel-left{ height:350px; width:100%; background:#f0eeee;border-radius:12px;-moz-border-radius:12px;-webkit-border-radius:12px;}
+.carousel .carousel-right{ height:350px; width:100%; background:#b4b4b4;border-radius:12px;-moz-border-radius:12px;-webkit-border-radius:12px;}
+.carousel .carousel-curve{ background:url(../img/slider-curve.png) no-repeat center top; margin-top:-50px; height:74px; position:relative; z-index:10}
+
+
+.boxes-group{ margin-bottom:24px;}
+.boxes-group .box-1,.boxes-group .box-2,.boxes-group .box-3,.boxes-group .box-4{ background:url(../img/box-1.jpg) no-repeat left top; width:212; height:100px; background:url(../img/box-1.jpg) left top no-repeat #e2594d;; color:#fff; font-size:35px; text-align:center; padding-top:84px; margin-bottom:20px;}
+.boxes-group .box-2{ background:url(../img/box-2.jpg) left top no-repeat #f4b448;}
+.boxes-group .box-3{ background:url(../img/box-3.jpg) left top no-repeat #88d351;}
+.boxes-group .box-4{ background:url(../img/box-4.jpg) right top no-repeat #3091ce;}
+
+
+
+nav{ margin-bottom:15px;}
+nav ul{ margin:0; padding:0; list-style:none;} 
+nav ul li{ float:left; position:relative; display:block;}
+nav ul li a.btn{ padding:5px 25px; font-size:14px;}
+nav ul li .btn .caret { margin-left: 20px; margin-top: 8px;}
+nav ul ul li{ float:none;}
+nav ul ul li a{ font-size:12px;}
+nav ul .dropdown-menu li > a:hover,nav ul .dropdown-menu li > a:focus,nav ul .dropdown-submenu:hover > a{  background:#3155a5}
+
+
+p { color:#757575; font-size:13px; margin:0 15px 0 0; line-height:16px;}
+
+.entry-item { float:left;}
+.entry-item h1 { color:#2d93b3 ; margin-top:0;  font-size:40px; font-weight:normal;}
+.entry-item h2 { color:#757575 ; margin-top:0; font-size:30px; font-weight:normal;}
+.start_council h1 { color:#2d93b3; font-size:27px;}
+.start_council h4 { color:#929292; font-size:16px; margin:10px 0 6px 0;}
+.start_council, .facebook_like, .social_icons { background:url(../img/topbar-shadow.jpg) repeat-x top; padding:14px 0 0 0;}
+.pay_pal_form { margin:0px;}
+.pay_pal_form  input[type="text"] { border-radius:0px}
+.pay_pal_form  input[type="submit"] { background:url(../img/pay_pal_btn.jpg) no-repeat ; height:28px; width:132px; border:none;}
+.facebook_like img { border:none;}
+.social_icons { margin:30px auto; text-align:center}
+.social_icons img { margin:0 10px 0 0;}
+
+
+
+
+
+.column-left{ background:url(../img/sidebar-shadow.jpg) no-repeat right; min-height:550px; padding:20px 21px 0;}
+.column-left .pull-left:after,.column-left .pull-left:after,.column-left .pull-right:after,.column-left .pull-right:before{ clear:both}
+.column-left .pull-left{ margin:0 15px 15px 0;}
+.column-left .pull-right{ margin:0 0 15px 15px}
+
+.column-right{
+    padding-top:20px;
+    max-width: 300px;
+    margin: 0px auto;
+}
+.column-right h2{ color:#2d93b3 ; margin-top:0; font-size:30px; font-weight:normal;}
+
+footer{ background:#73b6cb; margin-top:-50px; color:#fff; font-size:20px; }
+.footer-inner{ padding:87px 20px 20px;}
+
+@media (min-width: 1200px) {
+    .container
+    {
+        width:975px;
+    }
+}
+html {
+    overflow-x: hidden;
+}
+@media (max-width: 767px) {
+    .column-left {
+        background: none;
+    }
+  footer {
+      margin-top: 0px;
+  }
+}
+
+/*
+Make the Facebook Like box responsive (fluid width)
+https://developers.facebook.com/docs/reference/plugins/like-box/
+*/
+ 
+/* This element holds injected scripts inside iframes that in some cases may stretch layouts. So, we're just hiding it. */
+#fb-root {
+  display: none;
+}
+ 
+/* To fill the container and nothing else */
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+}
